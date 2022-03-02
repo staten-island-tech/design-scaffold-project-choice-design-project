@@ -39,7 +39,7 @@ li a:hover {
 
 
   align-items: center;
-
+background-image: url(https://res.cloudinary.com/apartmentlist/image/fetch/f_auto,q_auto,t_renter_life_cover/https://images.ctfassets.net/jeox55pd4d8n/38NNq3nacTPPYEoRG4uLHK/90500509bceb044d6b35f3a8af8f7c80/shutterstock_237303676.jpg);
   background-attachment: fixed;
   background-position: center top;
 }
@@ -50,7 +50,20 @@ li a:hover {
   float: right;
 }
 
+.header-text{
 
+width: 427px;
+height: 75px;
+text-align: center;
+font-family: Prata;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 81px;
+
+color: #253868;
+
+}
 
 
 
