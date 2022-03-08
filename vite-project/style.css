@@ -219,7 +219,7 @@ li a:hover {
   height: 150vh;
   left: 0;
   right: 0;
-  background: lightgray;
+  background: #DCDCDC;
   margin-top: 87rem;
   
 }
@@ -227,7 +227,7 @@ li a:hover {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 37px;
+  font-size: 40px;
   line-height: 43px;
   color: #000000;
   text-align: center;
@@ -240,7 +240,7 @@ li a:hover {
   font-size: 30px;
   text-align: justify;
   color: #000000;
-  margin-left: 20rem;
+  margin-left: 16rem;
 }
 .lunch-title{
   position: absolute;
@@ -260,7 +260,7 @@ li a:hover {
   font-size: 30px;
   text-align: justify;
   color: #000000;
-  margin-left: 90rem;
+  margin-left: 95rem;
 }
 .breakfast-text{
   position: absolute;
@@ -273,5 +273,46 @@ li a:hover {
   text-align: justify;
   color: #000000;
   margin-top: 6rem;
+  margin-left: 3rem;
 
+}
+.lunch-text{
+  position: absolute;
+  width: 550px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #000000;
+  margin-top: 6rem;
+  margin-left: 43rem;
+}
+.dinner-text{
+  position: absolute;
+  width: 550px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  color: #000000;
+  margin-top: 6rem;
+  margin-left: 82rem;
+}
+.breakfast-img{
+  position: absolute;
+  width: 400px;
+  height: 307px;
+  margin-top: 20rem;
+  margin-left: 5rem;
+}
+.lunch-img{
+  position: absolute;
+  width: 450px;
+  height: 307px;
+  margin-top: 20rem;
+  margin-left: 45rem;
 }
