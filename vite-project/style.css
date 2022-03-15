@@ -32,7 +32,7 @@ li a {
 
 li a:hover {
   color: lightgray;
-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
   transition: 0.3s;
   border-radius: 0.5rem;
 
@@ -446,6 +446,7 @@ transform: scale(1.1,1.1);
   right: 0;
   background: #E7E7E7;
   margin-top: 145rem;
+  /* background-image: url(); */
 
 }
 .borough-title{
@@ -484,11 +485,11 @@ transform: scale(1.1,1.1);
 	 box-sizing: border-box;
 }
 
- .page-content {
+ .borough-content {
 	 display: grid;
 	 grid-gap: 1rem;
 	 padding: 1rem;
-	 max-width: 1024px;
+	 max-width: 1300px;
 
 	 margin: 0 auto;
 	 font-family: var(--font-sans);
@@ -499,7 +500,7 @@ transform: scale(1.1,1.1);
 	}
 }
  @media (min-width: 800px) {
-	 .page-content {
+	 .borough-content {
 		 grid-template-columns: repeat(5, 1fr);
 	}
 }
@@ -546,16 +547,19 @@ transform: scale(1.1,1.1);
 	 transition: transform calc(var(--d) * 2) var(--e);
 }
  .card:nth-child(1):before {
-	 background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+	 background-image: url(https://thumbs.dreamstime.com/b/bronx-ny-usa-july-vertical-view-historic-high-bridge-spanning-harlem-river-highbridge-water-tower-distance-224848840.jpg);
 }
  .card:nth-child(2):before {
-	 background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+	 background-image: url(https://media.istockphoto.com/photos/the-freedom-tower-and-brooklyn-bridge-picture-id638847506?k=20&m=638847506&s=612x612&w=0&h=9x0_p57e12xUoBpdBfxlFDUWbZ1dJndd8PxNhYC-_-E=);
 }
  .card:nth-child(3):before {
-	 background-image: url(https://images.unsplash.com/photo-1545243424-0ce743321e11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+	 background-image: url(https://andystravelblog.boardingarea.com/wp-content/uploads/2015/08/Brooklyn-Bridge-Vertical-Wallpaper-1.jpg);
 }
  .card:nth-child(4):before {
-	 background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+	 background-image: url(https://as2.ftcdn.net/v2/jpg/01/27/75/61/1000_F_127756110_my7Z3sZfugPVvMay8O3qZqsFeUHURvR3.jpg);
+}
+.card:nth-child(5):before {
+  background-image: url(https://dux7id0k7hacn.cloudfront.net/as/assets-mem-com/cmi/8/7/3/3/10483378/20211214_083154693_0_orig.jpg/-/diane-gibbons-staten-island-ny-photos1.jpg);
 }
  .content {
 	 position: relative;
@@ -581,25 +585,7 @@ transform: scale(1.1,1.1);
 	 font-style: italic;
 	 line-height: 1.35;
 }
- .btn {
-	 cursor: pointer;
-	 margin-top: 1.5rem;
-	 padding: 0.75rem 1.5rem;
-	 font-size: 0.65rem;
-	 font-weight: bold;
-	 letter-spacing: 0.025rem;
-	 text-transform: uppercase;
-	 color: white;
-	 background-color: black;
-	 border: none;
-}
- .btn:hover {
-	 background-color: #0d0d0d;
-}
- .btn:focus {
-	 outline: 1px dashed yellow;
-	 outline-offset: 3px;
-}
+
  @media (hover: hover) and (min-width: 600px) {
 	 .card:after {
 		 transform: translateY(0);
