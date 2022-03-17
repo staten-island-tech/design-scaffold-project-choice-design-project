@@ -2,8 +2,59 @@ import './style.css'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const tl = gsap.timeline({ scrollTrigger: ".attractions", delay: 0.2});
+const attractionsfade = gsap.utils.toArray('.attractions');
+attractionsfade.forEach((attractions, i) => {
+  const anim = gsap.fromTo(attractions, {
+    autoAlpha: 0,
+    y: 50
+  }, {
+    duration: 1,
+    autoAlpha: 1,
+    y: 0
+  });
+  ScrollTrigger.create({
+    trigger: attractions,
+    animation: anim,
+    toggleActions: 'play none none none',
+    once: true
+  });
+});
 
-tl.from(".header-text", { opacity: 0, duration: 0.4 });
+const foodfade = gsap.utils.toArray('.food');
+foodfade.forEach((food, i) => {
+  const anim = gsap.fromTo(food, {
+    autoAlpha: 0,
+    y: 50
+  }, {
+    duration: 1,
+    autoAlpha: 1,
+    y: 0
+  });
+  ScrollTrigger.create({
+    trigger: food,
+    animation: anim,
+    toggleActions: 'play none none none',
+    once: true
 
-tl.from(".attractions", { opacity: 0, duration: 0.2, ease:"ease-out" });
+  });
+});
+
+const boroughfade = gsap.utils.toArray('.borough');
+boroughfade.forEach((borough, i) => {
+  const anim = gsap.fromTo(borough, {
+    autoAlpha: 0,
+    y: 50
+  }, {
+    duration: 1,
+    autoAlpha: 1,
+    y: 0
+  });
+  ScrollTrigger.create({
+    trigger: borough,
+    animation: anim,
+    toggleActions: 'play none none none',
+    once: true
+
+  });
+  const tl = gsap.timeline({delay: 0.2});
+tl.from(".logo", {opacity: 0, duration: 0.2});
