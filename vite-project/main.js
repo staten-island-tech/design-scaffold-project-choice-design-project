@@ -56,5 +56,20 @@ boroughfade.forEach((borough, i) => {
     once: true
 
   });
-  const tl = gsap.timeline({delay: 0.2});
-tl.from(".logo", {opacity: 0, duration: 0.2});
+})
+const tl = gsap.timeline({ delay: 0.2 });
+
+tl.from(".header-text", {opacity: 0, duration: 0.2});
+
+document.getElementById("change").addEventListener("click", function () {
+  //  console.log(this.innerText);
+   if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+    this.innerText = "Theme 2";
+} else {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
+    this.innerText= "Theme 1";
+  }
+});
