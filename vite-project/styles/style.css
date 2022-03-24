@@ -1,0 +1,30 @@
+@import url(header.css);
+@import url(attractions.css);
+@import url(food.css);
+@import url(boroughs.css);
+body{
+  margin:0px;
+}
+
+@media only screen and (max-width: 1040px) {
+
+  .button {
+    margin: 1rem;
+  }
+  .logo{
+    width: 100rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  .button {
+    margin: 1rem;
+  }
+  .text-box {
+    width: 15rem;
+  }
+  
+}
+
+
+

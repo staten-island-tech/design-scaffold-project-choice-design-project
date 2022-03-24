@@ -1,0 +1,187 @@
+.borough{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    background: #E7E7E7;
+    margin-top: 145rem;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://wallpapercave.com/wp/QXj1yIN.jpg);
+    left: 0;
+    right: 0;
+  }
+.borough-title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 43px;
+    color: #000000;
+    text-align: center;
+    margin-top: 10rem;
+  }
+.borough-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.borough-img{
+    width: 300px;
+    height: 600px;
+  }
+  
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
+   :root {
+       --d: 700ms;
+       --e: cubic-bezier(0.19, 1, 0.22, 1);
+       --font-sans: 'Rubik', sans-serif;
+       --font-serif: 'Cardo', serif;
+  }
+   * {
+       box-sizing: border-box;
+  }
+  
+   .borough-content {
+       display: grid;
+       grid-gap: 1rem;
+       padding: 1rem;
+       max-width: 1300px;
+  
+       margin: 0 auto;
+       font-family: var(--font-sans);
+  }
+   @media (min-width: 600px) {
+       .page-content {
+           grid-template-columns: repeat(2, 1fr);
+      }
+  }
+   @media (min-width: 800px) {
+       .borough-content {
+           grid-template-columns: repeat(5, 1fr);
+      }
+  }
+.card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+ @media (min-width: 600px) {
+       .card {
+           height: 350px;
+      }
+  }
+.card:before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 110%;
+       background-size: cover;
+       background-position: 0 0;
+       transition: transform calc(var(--d) * 1.5) var(--e);
+       pointer-events: none;
+  }
+   .card:after {
+       content: '';
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 200%;
+       pointer-events: none;
+       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.320) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.540) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.790) 100%);
+       transform: translateY(-50%);
+       transition: transform calc(var(--d) * 2) var(--e);
+  }
+   .card:nth-child(1):before {
+       background-image: url(https://thumbs.dreamstime.com/b/bronx-ny-usa-july-vertical-view-historic-high-bridge-spanning-harlem-river-highbridge-water-tower-distance-224848840.jpg);
+  }
+   .card:nth-child(2):before {
+       background-image: url(https://media.istockphoto.com/photos/the-freedom-tower-and-brooklyn-bridge-picture-id638847506?k=20&m=638847506&s=612x612&w=0&h=9x0_p57e12xUoBpdBfxlFDUWbZ1dJndd8PxNhYC-_-E=);
+  }
+   .card:nth-child(3):before {
+       background-image: url(https://andystravelblog.boardingarea.com/wp-content/uploads/2015/08/Brooklyn-Bridge-Vertical-Wallpaper-1.jpg);
+  }
+   .card:nth-child(4):before {
+       background-image: url(https://as2.ftcdn.net/v2/jpg/01/27/75/61/1000_F_127756110_my7Z3sZfugPVvMay8O3qZqsFeUHURvR3.jpg);
+  }
+  .card:nth-child(5):before {
+    background-image: url(https://dux7id0k7hacn.cloudfront.net/as/assets-mem-com/cmi/8/7/3/3/10483378/20211214_083154693_0_orig.jpg/-/diane-gibbons-staten-island-ny-photos1.jpg);
+  }
+   .content {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       padding: 1rem;
+       transition: transform var(--d) var(--e);
+       z-index: 1;
+  }
+   .content > * + * {
+       margin-top: 1rem;
+  }
+   .title {
+       font-size: 1.3rem;
+       font-weight: bold;
+       line-height: 1.2;
+  }
+   .copy {
+       font-family: var(--font-serif);
+       font-size: 1.125rem;
+       font-style: italic;
+       line-height: 1.35;
+  }
+  
+   @media (hover: hover) and (min-width: 600px) {
+       .card:after {
+           transform: translateY(0);
+      }
+       .content {
+           transform: translateY(calc(100% - 4.5rem));
+      }
+       .content > *:not(.title) {
+           opacity: 0;
+           transform: translateY(1rem);
+           transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+      }
+       .card:hover, .card:focus-within {
+           align-items: center;
+      }
+       .card:hover:before, .card:focus-within:before {
+           transform: translateY(-4%);
+      }
+       .card:hover:after, .card:focus-within:after {
+           transform: translateY(-50%);
+      }
+       .card:hover .content, .card:focus-within .content {
+           transform: translateY(0);
+      }
+       .card:hover .content > *:not(.title), .card:focus-within .content > *:not(.title) {
+           opacity: 1;
+           transform: translateY(0);
+           transition-delay: calc(var(--d) / 8);
+      }
+       .card:focus-within:before, .card:focus-within:after, .card:focus-within .content, .card:focus-within .content > *:not(.title) {
+           transition-duration: 0s;
+      }
+  }
+  
