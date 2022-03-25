@@ -2,7 +2,7 @@ import "./styles/style.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const attractionsfade = gsap.utils.toArray('.attractions');
+const attractionsfade = gsap.utils.toArray('#attractions');
 attractionsfade.forEach((attractions, i) => {
   const anim = gsap.fromTo(attractions, {
     autoAlpha: 0,
@@ -20,7 +20,7 @@ attractionsfade.forEach((attractions, i) => {
   });
 });
 
-const foodfade = gsap.utils.toArray('.food');
+const foodfade = gsap.utils.toArray('#food');
 foodfade.forEach((food, i) => {
   const anim = gsap.fromTo(food, {
     autoAlpha: 0,
@@ -39,7 +39,7 @@ foodfade.forEach((food, i) => {
   });
 });
 
-const boroughfade = gsap.utils.toArray('.borough');
+const boroughfade = gsap.utils.toArray('#borough');
 boroughfade.forEach((borough, i) => {
   const anim = gsap.fromTo(borough, {
     autoAlpha: 0,
