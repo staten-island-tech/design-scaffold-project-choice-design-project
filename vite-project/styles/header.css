@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #253868;
+    background-color: var(--secondary);
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@
   
   .btn{
     padding: 0.5rem;
-    display: block;
+    color: #FFFFFF;
     font-size: 1.25rem;
     float: right;
     display: block;
@@ -64,6 +64,7 @@
     align-items: center;
     background-image: url(https://wallpapercave.com/wp/V7MR9zv.jpg);
     background-attachment: fixed;
+    background-size: cover;
     background-position: center top;
     left: 0;
     right: 0;

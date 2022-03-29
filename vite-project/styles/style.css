@@ -2,6 +2,33 @@
 @import url(attractions.css);
 @import url(food.css);
 @import url(boroughs.css);
+
+:root {
+  --black: #000;
+  --dark-blue: #253868;
+  --light-blue: #2E3344;
+  --white: #fff;
+
+  /*Intentions */
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+
+  /*Typography */
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
+}
+.dark {
+  --primary: var(--dark-blue);
+  --secondary: var(--light-blue);
+}
+.light {
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+}
+
 body{
   margin:0px;
 }
@@ -9,7 +36,7 @@ body{
 html {
   scroll-behavior: smooth;
  }
- 
+
  @media only screen and (max-width: 1040px) {
   #food-cards {
     width: 40%;
