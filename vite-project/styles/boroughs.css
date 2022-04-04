@@ -63,6 +63,7 @@
        .page-content {
            grid-template-columns: repeat(2, 1fr);
       }
+
   }
    @media (min-width: 800px) {
        .borough-content {
