@@ -2,7 +2,7 @@ import "./styles/style.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const attractionsfade = gsap.utils.toArray('#attractions');
+const attractionsfade = gsap.utils.toArray('.attractions');
 attractionsfade.forEach((attractions, i) => {
   const anim = gsap.fromTo(attractions, {
     autoAlpha: 0,
