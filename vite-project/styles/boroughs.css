@@ -88,6 +88,18 @@
            height: 350px;
       }
   }
+
+  @media (max-width: 1350px) {
+    #borough{
+        margin-top: 100rem;
+    }
+}
+@media (max-width: 900px) {
+    #borough{
+        margin-top: 147rem;
+    }
+}
+
 .card:before {
        content: '';
        position: absolute;

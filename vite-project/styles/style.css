@@ -74,6 +74,13 @@ margin-bottom: 4rem;
   display: block;
   font-weight: 500;
   font-size: 2rem;
+  text-align: center;
+
+
+}
+.attractions-header-items:hover {
+  transform: scale(1.1,1.1);
+  transition: 0.5s;
 
 }
 
@@ -118,6 +125,8 @@ margin-bottom: 4rem;
   font-size: 2rem;
 
 }
+
+
 .fuji-box {
   box-sizing: border-box;
   display: flex;

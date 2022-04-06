@@ -212,3 +212,16 @@
   justify-content: space-around;
 
 }
+@media (max-width: 1350px) {
+  #food{
+    height: auto;
+  }
+}
+@media (max-width: 900px) {
+  #food{
+    height: auto;
+  }
+  /* .post-class{
+    padding: 1rem;
+  } */
+}
