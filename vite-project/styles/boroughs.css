@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     background: #E7E7E7;
-    margin-top: 58rem;
+    margin-top: 58rem; 
     background-image: url();
     background-size: cover;
     display: flex;
@@ -14,8 +14,8 @@
     background-image: url(https://wallpapercave.com/wp/QXj1yIN.jpg);
     left: 0;
     right: 0;
-  }
-.borough-title{
+  } 
+.borough-header{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -140,7 +140,7 @@
   .card:nth-child(5):before {
     background-image: url(https://dux7id0k7hacn.cloudfront.net/as/assets-mem-com/cmi/8/7/3/3/10483378/20211214_083154693_0_orig.jpg/-/diane-gibbons-staten-island-ny-photos1.jpg);
   }
-   .content {
+   .borough-card {
        position: relative;
        display: flex;
        flex-direction: column;
@@ -150,7 +150,7 @@
        transition: transform var(--d) var(--e);
        z-index: 1;
   }
-   .content > * + * {
+   .borough-card > * + * {
        margin-top: 1rem;
   }
    .title {
@@ -158,7 +158,7 @@
        font-weight: bold;
        line-height: 1.2;
   }
-   .copy {
+   .borough-desc {
        font-family: var(--font-serif);
        font-size: 1.125rem;
        font-style: italic;
@@ -169,10 +169,10 @@
        .card:after {
            transform: translateY(0);
       }
-       .content {
+       .borough-card {
            transform: translateY(calc(100% - 4.5rem));
       }
-       .content > *:not(.title) {
+       .borough-card > *:not(.title) {
            opacity: 0;
            transform: translateY(1rem);
            transition: transform var(--d) var(--e), opacity var(--d) var(--e);
@@ -186,15 +186,15 @@
        .card:hover:after, .card:focus-within:after {
            transform: translateY(-50%);
       }
-       .card:hover .content, .card:focus-within .content {
+       .card:hover .borough-card, .card:focus-within .borough-card {
            transform: translateY(0);
       }
-       .card:hover .content > *:not(.title), .card:focus-within .content > *:not(.title) {
+       .card:hover .borough-card > *:not(.title), .card:focus-within .borough-card > *:not(.title) {
            opacity: 1;
            transform: translateY(0);
            transition-delay: calc(var(--d) / 8);
       }
-       .card:focus-within:before, .card:focus-within:after, .card:focus-within .content, .card:focus-within .content > *:not(.title) {
+       .card:focus-within:before, .card:focus-within:after, .card:focus-within .borough-card, .card:focus-within .borough-card > *:not(.title) {
            transition-duration: 0s;
       }
   }

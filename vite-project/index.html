@@ -9,23 +9,22 @@
   </head>
   <body class="light">
     <nav class="navbar">
-      <!-- need theme and media queries and make gsap repeat-->
       <input type="checkbox" class="menu-button" id="menu-button">
       <label for="menu-button" class="menu-icon">
           <span class="nav-icon"></span>
       </label>
 
-      <ul class="menu navbar-list">
+    <ul class="menu navbar-list">
         <a href="/" class="logo">New York City </a>
         <li class="btn" id="change"><a href="#boroughsectionjump">Theme 1</a></li>
         <li class="navbar-list-item"><a href="#borough">Boroughs</a></li>
-          <li class="navbar-list-item"><a href="#food">Food</a></li>
-          <li class="navbar-list-item"><a href="#attractionsjump">Attractions</a></li>
-          <li class="navbar-list-item" id="navbar-home"><a href="#header">Home</a></li>
-
+        <li class="navbar-list-item"><a href="#food">Food</a></li>
+        <li class="navbar-list-item"><a href="#attractionsjump">Attractions</a></li>
+        <li class="navbar-list-item" id="navbar-home"><a href="#header">Home</a></li>
       </ul>
-
   </nav>
+
+
     <header id="header">
       <div class="header-text-box">
         <h1 class="header-text">New York City</h1>
@@ -33,11 +32,8 @@
     </header>
 
 
-
-
-
-<span id="attractionsjump"></span>
-<section class="attractions"  >
+  <span id="attractionsjump"></span>
+  <section class="attractions"  >
     <h1 class="attractions-header">Attractions</h1>
     <div class="attractions-box">
         <section class="attractions-box fuji-box">
@@ -78,92 +74,83 @@
     </div>
 </section>
 
-<div id="food">
-  <h1 class="food-text">Food</h1>
 
-  <div class="gallery">
-    <div class="post-class" >
-        <div class="text">Breakfast</div>
-        <div class="text-h2">It is often said that breakfast is the most important meal of the day. This is especially true for New-Yorkers
+<div id="food">
+  <h1 class="food-header">Food</h1>
+  <div class="food-gallery">
+    <div class="food-post-class" >
+        <div class="food-title">Breakfast</div>
+        <div class="food-info">It is often said that breakfast is the most important meal of the day. This is especially true for New-Yorkers
            and tourists. An average NYC breakfast includes hot/iced coffee
            , bagels, muffins, bacon and egg sandwiches. You can find these
             items at your local grocery/convenience store for 
           under $5. A refreshing/cheap way to start off your day!</div>
-          <div><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Bacon%2C_egg%2C_and_cheese_on_bread.jpg" class="post-image"
+          <div><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Bacon%2C_egg%2C_and_cheese_on_bread.jpg" class="food-image"
             alt="Breakfast"></div>
         </div> 
-    <div class="post-class">
-        <div class="text">Lunch</div>
-        <div class="text-h2">New York City includes one of the
+    <div class="food-post-class">
+        <div class="food-title">Lunch</div>
+        <div class="food-info">New York City includes one of the
            most diverse variety of cultures that can be found in the resturants. These include American, A
            sian, European, and many more resturants that all contain delicious food. Perhaps the most popular lunch is pizza and Chinese food. You can usually get a full lunch 
           for under $15. Make sure to save some room for dinner!</div>
-          <div><img src="https://images-gmi-pmc.edge-generalmills.com/136bd8ab-7401-4c90-82e4-edcea9174755.jpg" class="post-image"
+          <div><img src="https://images-gmi-pmc.edge-generalmills.com/136bd8ab-7401-4c90-82e4-edcea9174755.jpg" class="food-image"
             alt="Lunch"></div>
          </div> 
-    <div class="post-class">
-        <div class="text">Dinner</div>
-        <div class="text-h2">Dinner is the last meal of the day, 
+    <div class="food-post-class">
+        <div class="food-title">Dinner</div>
+        <div class="food-info">Dinner is the last meal of the day, 
           so make sure to stuff up! Many New Yorkers/tourists tend 
           to eat more fancy/expensive meals for dinner. These meals
            may include steak, seafood, sushi, tacos, salads, ramen,
             hotpot, barbecue, and many more! You don't have to choose from this list, 
           there are over 23,000 resturants, all with unique dishes, in NYC!</div>
-          <div><img src="https://www.carolinasteakhouse.com/wp-content/uploads/2019/11/Steak-Shrimp-1995-e1576967742944-400x400.jpg" class="post-image"
+          <div><img src="https://www.carolinasteakhouse.com/wp-content/uploads/2019/11/Steak-Shrimp-1995-e1576967742944-400x400.jpg" class="food-image"
             alt="Dinner"></div>
-        </div> 
-
-            
+        </div>    
+  </div>
 </div>
 
-
-</div>
 
 <div id="borough">
-  <h1 class="borough-title">Boroughs</h1>
+  <h1 class="borough-header">Boroughs</h1>
   <div class="borough-gallery">
-
     <main class="borough-content">
       <div class="card">
-          <div class="content">
+          <div class="borough-card">
               <h2 class="title">Bronx</h2>
-              <p class="copy">Head on over to the Bronx Zoo!</p>
+              <p class="borough-desc">Head on over to the Bronx Zoo!</p>
           </div>
       </div>
       <div class="card">
-        <div class="content">
+        <div class="borough-card">
             <h2 class="title">Brooklyn</h2>
-            <p class="copy">Check out the dozens of attractions Brooklyn has to offer!</p>
+            <p class="borough-desc">Check out the dozens of attractions Brooklyn has to offer!</p>
         </div>
     </div>
       <div class="card">
-          <div class="content">
+          <div class="borough-card">
               <h2 class="title">Manhattan</h2>
-              <p class="copy">The city and heart within New York City.</p>
+              <p class="borough-desc">The city and heart within New York City.</p>
           </div>
       </div>
       <div class="card">
-          <div class="content">
+          <div class="borough-card">
               <h2 class="title">Queens</h2>
-              <p class="copy">You can find Spider-Man swinging around!</p>
+              <p class="borough-desc">You can find Spider-Man swinging around!</p>
           </div>
       </div>
       <div class="card">
-        <div class="content">
+        <div class="borough-card">
             <h2 class="title">Staten Island</h2>
-            <p class="copy">The suburbs of New York City.</p>
+            <p class="borough-desc">The suburbs of New York City.</p>
         </div>
     </div>
-      
-      
   </main>
-  
-
 </div>
 </div>
+ 
 
-
-    
     <script type="module" src="/main.js"></script>
   </body>
 </html>
