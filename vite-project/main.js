@@ -13,7 +13,7 @@ attractionsfade.forEach((attractions, i) => {
     y: 0
   });
   ScrollTrigger.create({
-    trigger: attractions,
+    trigger: attractions, 
     animation: anim,
     toggleActions: 'play none none none',
     once: true
@@ -24,7 +24,7 @@ const foodfade = gsap.utils.toArray('#food');
 foodfade.forEach((food, i) => {
   const anim = gsap.fromTo(food, {
     autoAlpha: 0,
-    y: 50
+    y: 50    
   }, {
     duration: 1,
     autoAlpha: 1,
@@ -72,3 +72,5 @@ document.getElementById("change").addEventListener("click", function () {
     this.innerText= "Theme 2";
   }
 });
+
+
