@@ -2,6 +2,7 @@
 @import url(attractions.css);
 @import url(food.css);
 @import url(boroughs.css);
+@import url(footer.css);
 body{
   background: #f9f9f9;
 }
@@ -58,7 +59,7 @@ html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(122, 116, 116);
   color: black;
 }
 
@@ -72,3 +73,4 @@ html {
 .topnav .icon {
   display: none;
 }
+
