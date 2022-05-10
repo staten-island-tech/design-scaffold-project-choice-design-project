@@ -39,6 +39,26 @@ foodfade.forEach((food, i) => {
   });
 });
 
+
+const sportsfade = gsap.utils.toArray('#sports');
+sportsfade.forEach((sports, i) => {
+  const anim = gsap.fromTo(sports, {
+    autoAlpha: 0,
+    y: 50    
+  }, {
+    duration: 1,
+    autoAlpha: 1,
+    y: 0
+  });
+  ScrollTrigger.create({
+    trigger: sports,
+    animation: anim,
+    toggleActions: 'play none none none',
+    once: true
+
+  });
+});
+
 const boroughfade = gsap.utils.toArray('#borough');
 boroughfade.forEach((borough, i) => {
   const anim = gsap.fromTo(borough, {
