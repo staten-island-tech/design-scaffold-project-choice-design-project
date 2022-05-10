@@ -40,18 +40,18 @@ foodfade.forEach((food, i) => {
 });
 
 
-const sportsfade = gsap.utils.toArray('#sports');
-sportsfade.forEach((sports, i) => {
-  const anim = gsap.fromTo(sports, {
+const teamsfade = gsap.utils.toArray('#teams');
+teamsfade.forEach((teams, i) => {
+  const anim = gsap.fromTo(teams, {
     autoAlpha: 0,
     y: 50    
   }, {
     duration: 1,
     autoAlpha: 1,
-    y: 0
+    y: 0 
   });
   ScrollTrigger.create({
-    trigger: sports,
+    trigger: teams,
     animation: anim,
     toggleActions: 'play none none none',
     once: true
