@@ -1,5 +1,5 @@
 
-ul {
+.navbar-list {
   z-index: 1;
   margin: 0;
   background-color: var(--secondary);
@@ -92,7 +92,6 @@ li a:hover {
 
 .logo:hover {
   color: lightgray;
-
   transition: 0.2s;
   border-radius: 0.5rem;
 
@@ -100,8 +99,8 @@ li a:hover {
 @media (min-width: 1200px) {
   .logo {
     margin-left: 10vw;
-  }
 
+  }
 }
 
 @media screen and (min-width: 1201px) {
@@ -112,8 +111,8 @@ li a:hover {
   .header-text {
     font-size: 8.5rem;
     transition: 1s;
-  }
 
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1200px) {
@@ -124,8 +123,8 @@ li a:hover {
   .header-text {
     font-size: 7.5rem;
     transition: 1s;
-  }
 
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -134,13 +133,11 @@ li a:hover {
     background-size: cover;
     width: 100%;
     background-attachment: scroll;
+    
   }
   .header-text {
     font-size: 6.5rem;
     transition: 1s;
+
   }
 }
-
-
-
-  

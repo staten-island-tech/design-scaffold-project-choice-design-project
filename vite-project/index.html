@@ -4,26 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link href="http://fonts.cdnfonts.com/css/roadway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body class="light">
-    <nav class="navbar">
-      <input type="checkbox" class="menu-button" id="menu-button">
-      <label for="menu-button" class="menu-icon">
-          <span class="nav-icon"></span>
-      </label>
 
-    <ul class="menu navbar-list">
-        <a href="/" class="logo">New York City </a>
-        <li class="btn navbar-list-item" ><a id="change" href="#boroughsectionjump">Theme 1</a></li>
-        <li class="navbar-list-item"><a href="#borough">Boroughs</a></li>
-        <li class="navbar-list-item"><a href="#food">Food</a></li>
-        <li class="navbar-list-item"><a href="#teams">Teams</a></li>
-        <li class="navbar-list-item"><a href="#attractionsjump">Attractions</a></li>
-        <li class="navbar-list-item" id="navbar-home"><a href="#header">Home</a></li>
-    </ul>
-  </nav>
+<div class="topnav" id="myTopnav">
+  <a href="#header" class="active">Home</a>
+  <a href="#borough">Boroughs</a>
+  <a href="#food">Food</a>
+  <a href="#teams">Teams</a>
+  <a href="#attractionsjump">Attractions</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
     <header id="header">
@@ -32,6 +29,26 @@
       </div>
     </header>
 
+
+    <!-- <nav class="navbar">
+      <ul class="navbar-list">
+          <a href="/" class="logo">New York City </a>
+          <li class="btn navbar-list-item" ><a id="change" href="#boroughsectionjump">Theme 1</a></li>
+          <li class="navbar-list-item"><a href="#borough">Boroughs</a></li>
+          <li class="navbar-list-item"><a href="#food">Food</a></li>
+          <li class="navbar-list-item"><a href="#teams">Teams</a></li>
+          <li class="navbar-list-item"><a href="#attractionsjump">Attractions</a></li>
+          <li class="navbar-list-item" id="navbar-home"><a href="#header">Home</a></li>
+      </ul>
+    </nav>
+  
+  
+      <header id="header">
+        <div class="header-text-box">
+          <h1 class="header-text">New York City</h1>
+        </div>
+      </header>
+   -->
 
   <span id="attractionsjump"></span>
   <section class="attractions"  >
