@@ -19,11 +19,17 @@
     margin: 1.5rem 1rem;
     margin-bottom: 0.5rem;
   }
-  .socials {
+  .github {
     display: flex;
     justify-content: center;
   }
-  .footer-legal a {
+  .footer-text-jump a {
+    font-size: 1.2rem;
+    margin: 1.5rem 0.75rem 0 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-text a {
     font-size: 1.2rem;
     margin: 1.5rem 0.75rem 0 0;
     color: #fff;
@@ -119,12 +125,12 @@
      width: 115%;
       }
                    } 
-@media screen and (max-width: 325px) {
-.footer{
-margin-bottom: -180rem;
-width: 115%;
-}
+  @media screen and (max-width: 325px) {
+    .footer{
+       margin-bottom: -180rem;
+        width: 115%;
 } 
+  } 
 @media screen and (max-width: 320px) {
          .footer{
            margin-bottom: -185rem;
@@ -139,7 +145,7 @@ width: 115%;
     .footer p {
       font-size: 2.2343vw;
     }
-    .footer-legal a {
+    .footer-text a {
       font-size: 1.5625vw;
     }
   }
@@ -148,7 +154,7 @@ width: 115%;
     .footer p {
       font-size: 1.34rem;
     }
-    .footer-legal a {
+    .footer-text a {
       font-size: 0.9375rem;
     }
   }

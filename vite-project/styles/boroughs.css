@@ -61,7 +61,7 @@
        font-family: var(--font-sans);
   }
 
-.borough-main-card {
+.borough-card-holder {
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -75,7 +75,7 @@
   }
 
 
-.borough-main-card:before {
+.borough-card-holder:before {
        content: '';
        position: absolute;
        top: 0;
@@ -87,7 +87,7 @@
        transition: transform calc(var(--d) * 1.5) var(--e);
        pointer-events: none;
   }
-   .borough-main-card:after {
+   .borough-card-holder:after {
        content: '';
        display: block;
        position: absolute;
@@ -100,19 +100,19 @@
        transform: translateY(-50%);
        transition: transform calc(var(--d) * 2) var(--e);
   }
-   .borough-main-card:nth-child(1):before {
+   .borough-card-holder:nth-child(1):before {
        background-image: url(https://thumbs.dreamstime.com/b/bronx-ny-usa-july-vertical-view-historic-high-bridge-spanning-harlem-river-highbridge-water-tower-distance-224848840.jpg);
   }
-   .borough-main-card:nth-child(2):before {
+   .borough-card-holder:nth-child(2):before {
        background-image: url(https://media.istockphoto.com/photos/the-freedom-tower-and-brooklyn-bridge-picture-id638847506?k=20&m=638847506&s=612x612&w=0&h=9x0_p57e12xUoBpdBfxlFDUWbZ1dJndd8PxNhYC-_-E=);
   }
-   .borough-main-card:nth-child(3):before {
+   .borough-card-holder:nth-child(3):before {
        background-image: url(https://andystravelblog.boardingarea.com/wp-content/uploads/2015/08/Brooklyn-Bridge-Vertical-Wallpaper-1.jpg);
   }
-   .borough-main-card:nth-child(4):before {
+   .borough-card-holder:nth-child(4):before {
        background-image: url(https://as2.ftcdn.net/v2/jpg/01/27/75/61/1000_F_127756110_my7Z3sZfugPVvMay8O3qZqsFeUHURvR3.jpg);
   }
-  .borough-main-card:nth-child(5):before {
+  .borough-card-holder:nth-child(5):before {
     background-image: url(https://dux7id0k7hacn.cloudfront.net/as/assets-mem-com/cmi/8/7/3/3/10483378/20211214_083154693_0_orig.jpg/-/diane-gibbons-staten-island-ny-photos1.jpg);
   }
    .borough-card {
@@ -140,7 +140,7 @@
        line-height: 1.35;
   }
   @media (min-width: 600px) {
-    .borough-main-card {
+    .borough-card-holder {
         height: 21.875rem;
    }
 }
@@ -177,7 +177,7 @@
 }
   
    @media (hover: hover) and (min-width: 600px) {
-       .borough-main-card:after {
+       .borough-card-holder:after {
            transform: translateY(0);
       }
        .borough-card {
@@ -188,19 +188,19 @@
            transform: translateY(1rem);
            transition: transform var(--d) var(--e), opacity var(--d) var(--e);
       }
-       .borough-main-card:hover, .borough-main-card:focus-within {
+       .borough-card-holder:hover, .borough-card-holder:focus-within {
            align-items: center;
       }
-       .borough-main-card:hover:before, .borough-main-card:focus-within:before {
+       .borough-card-holder:hover:before, .borough-card-holder:focus-within:before {
            transform: translateY(-4%);
       }
-       .borough-main-card:hover:after, .borough-main-card:focus-within:after {
+       .borough-card-holder:hover:after, .borough-card-holder:focus-within:after {
            transform: translateY(-50%);
       }
-       .borough-main-card:hover .borough-card, .borough-main-card:focus-within .borough-card {
+       .borough-card-holder:hover .borough-card, .borough-card-holder:focus-within .borough-card {
            transform: translateY(0);
       }
-       .borough-main-card:hover .borough-card > *:not(.borough-title), .borough-main-card:focus-within .borough-card > *:not(.borough-title) {
+       .borough-card-holder:hover .borough-card > *:not(.borough-title), .borough-card-holder:focus-within .borough-card > *:not(.borough-title) {
            opacity: 1;
            transform: translateY(0);
            transition-delay: calc(var(--d) / 8);
