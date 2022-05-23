@@ -83,22 +83,22 @@ tl.from(".header-text", {opacity: 0, duration: 0.2});
 
 
 document.getElementById("change").addEventListener("click", function () {
-    if (document.body.classList.contains("dark")) {
-     document.body.classList.add("light");
-     document.body.classList.remove("dark");
-     this.innerText = "Theme 1";
- } else {
-     document.body.classList.add("dark");
-     document.body.classList.remove("light");
-     this.innerText= "Theme 2";
-   }
- });
- 
- function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+  if (document.body.classList.contains("dark")) {
+   document.body.classList.add("light");
+   document.body.classList.remove("dark");
+   this.innerText = "Theme 1";
+} else {
+   document.body.classList.add("dark");
+   document.body.classList.remove("light");
+   this.innerText= "Theme 2";
+ }
+});
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
+}
