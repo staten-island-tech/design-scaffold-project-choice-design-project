@@ -89,7 +89,7 @@
   
   }
   
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1135px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -97,7 +97,7 @@
     }
   }
   
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1135px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -113,12 +113,14 @@
     }
   }
   
-  @media (min-width: 1200px) {
+  @media (max-width: 1135px) {
     .logo {
-      margin-left: 10vw;
+      margin-left: 2vw;
+      margin-top: 19px;
   
     }
   }
+  
   
   @media screen and (min-width: 1201px) {
     #header {

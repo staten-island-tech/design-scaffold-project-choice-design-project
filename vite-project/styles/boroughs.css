@@ -7,7 +7,8 @@
     left: 0;
     right: 0;
     background: #E7E7E7;
-    margin-top: 105rem; 
+    margin-top: 220rem; 
+
     background-image: url();
     background-size: cover;
     display: flex;
@@ -147,12 +148,12 @@
 
 @media (max-width: 1350px) {
  #borough{
-     margin-top: 100rem;
+     margin-top: 190rem;
  }
 }
 @media (max-width: 900px) {
  #borough{
-     margin-top: 147rem;
+     margin-top: 170rem;
  }
 }
   @media (min-width: 600px) {
