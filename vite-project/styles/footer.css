@@ -1,5 +1,6 @@
 .footer {
   
+<<<<<<< HEAD
   color: white;
   padding: 1rem;
   position: fixed;
@@ -93,10 +94,136 @@
   .footer{
       margin-bottom: -125rem;
       width: 100%;
+=======
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .logos {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin: 1.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .github {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-text-jump a {
+    font-size: 1.2rem;
+    margin: 1.5rem 0.75rem 0 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-text a {
+    font-size: 1.2rem;
+    margin: 1.5rem 0.75rem 0 0;
+    color: #fff;
+  }
+  @media screen and (max-width: 800px) {
+  .footer{
+    margin-bottom: -85rem;
+    width: 100%;
+  }
+  }
+  
+@media screen and (max-width: 600px) {
+  .footer{
+      margin-bottom: -70rem;
+      width: 100%;
+  }
+  }
+    
+@media screen and (max-width: 515px) {
+   .footer{
+       margin-bottom: -80rem;
+       width: 100%;
+  }
+  }
+
+@media screen and (max-width: 460px) {
+    .footer{
+       margin-bottom: -85rem;
+       width: 100%;
+
+     }
+    }
+@media screen and (max-width: 440px) {
+     .footer{
+     margin-bottom: -90rem;
+     width: 100%;
+   }
+}
+ @media screen and (max-width: 420px) {
+    .footer{
+    margin-bottom: -100rem;
+    width: 100%;
+    
+       }
+ }
+@media screen and (max-width: 400px) {
+    .footer{
+    margin-bottom: -110rem;
+    width: 100%;
+      
+     }
+    }
+            
+@media screen and (max-width: 387px) {
+     .footer{
+       margin-bottom: -120rem;
+       width: 100%;
+    }
+        }  
+@media screen and (max-width: 367px) {
+    .footer{
+        margin-bottom: -125rem;
+        width: 100%;
+        }
+     }  
+@media screen and (max-width: 363px) {
+      .footer{
+        margin-bottom: -135rem;
+        width: 100%;
+        }
+      }  
+ @media screen and (max-width: 355px) {
+      .footer{
+         margin-bottom: -145rem;
+         width: 100%;
+        }
+      }  
+@media screen and (max-width: 340px) {
+    .footer{
+        margin-bottom: -150rem;
+        width: 100%;
+        }
+      }  
+@media screen and (max-width: 338px) {
+   .footer{
+       margin-bottom: -160rem;
+       width: 100%;
+        }
+          } 
+@media screen and (max-width: 331px) {
+     .footer{
+     margin-bottom: -170rem;
+     width: 100%;
+>>>>>>> 2cbec8b7d847e529f06eeda3db840ffce74b4d69
       }
    }  
 @media screen and (max-width: 363px) {
     .footer{
+<<<<<<< HEAD
       margin-bottom: -135rem;
       width: 100%;
       }
@@ -130,8 +257,13 @@
      margin-bottom: -180rem;
      width: 100%;
 } 
+=======
+       margin-bottom: -180rem;
+       width: 100%;
+>>>>>>> 2cbec8b7d847e529f06eeda3db840ffce74b4d69
 } 
 @media screen and (max-width: 320px) {
+<<<<<<< HEAD
        .footer{
          margin-bottom: -185rem;
          width: 100%;
@@ -141,6 +273,24 @@
   .footer img {
     width: 5.2083vw;
     height: auto;
+=======
+         .footer{
+           margin-bottom: -185rem;
+           width: 100%;
+                 }
+          } 
+  @media screen and (max-width: 768px) {
+    .footer img {
+      width: 5.2083vw;
+      height: auto;
+    }
+    .footer p {
+      font-size: 2.2343vw;
+    }
+    .footer-text a {
+      font-size: 1.5625vw;
+    }
+>>>>>>> 2cbec8b7d847e529f06eeda3db840ffce74b4d69
   }
   .footer p {
     font-size: 2.2343vw;
