@@ -101,3 +101,12 @@
   }
 
 }
+@media only screen and (max-width: 600px) {
+  .food-post-class {
+    width: 100%;
+  }
+  .food-image{
+    width: 90%;
+  }
+
+}

@@ -1,87 +1,104 @@
-   #teams{
-    position: absolute;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    background: #f9f9f9;
-    margin-top: 5rem;
-    
-    
+#teams{
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  background: #f9f9f9;
+  margin-top: 5rem;
+  
+  
 
-  }
+}
 .teams-title{
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 2.688rem;
-    color: #000000;
-    text-align: center;
-    margin-top: 8rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2.688rem;
+  color: #000000;
+  text-align: center;
+  margin-top: 8rem;
 
 }
 .teams-gallery{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 0em 0em; 
-  grid-template-areas: 
-    ". ."
-    ". ."; 
-    text-align: center;
-  margin-top: 5rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+grid-template-columns: 1fr 1fr; 
+grid-template-rows: 1fr 1fr; 
+gap: 0em 0em; 
+grid-template-areas: 
+  ". ."
+  ". ."; 
+  text-align: center;
+margin-top: 5rem;
 
 
 }
 .teams-image{
-  width: 35%;
-  border-radius: 0.5rem;
+width: 35%;
+border-radius: 0.5rem;
 
 }
 .teams-image:hover{
-  box-shadow: 0 0 0 7px #000000;
-  transition: 0.4s ease;
-  }
+box-shadow: 0 0 0 7px #000000;
+transition: 0.4s ease;
+}
 
 .teams-title-2{
-  
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 2.688rem;
-  color: #000000;
-  text-align: center;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 2.688rem;
+color: #000000;
+text-align: center;
 
 }
 .teams-h2{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .teams-desc{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.75rem;
-  color: #000000;
-  margin-bottom: 5rem;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 1.75rem;
+color: #000000;
+margin-bottom: 5rem;
 
 
 
 
 }
 .teams-desc-box{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
 }
 @media screen and (max-width: 1418px) {
-  .teams-desc-box{
-    width: auto;
-  }
+.teams-desc-box{
+  width: auto;
+}
+
+}
+@media screen and (max-width: 1000px) {
+.teams-image{
+  width: 60%;
+}
+
+}
+@media screen and (max-width: 500px) {
+.teams-image{
+  width: 70%;
+}
+}
+@media screen and (max-width: 350px) {
+.teams-image{
+  width: 100%;
+}
 
 }
