@@ -151,18 +151,9 @@
 
    }
 }
-@media (max-width: 1350px) {
- #borough{
-     margin-top: 140rem;
 
- }
-}
-@media (max-width: 900px) {
- #borough{
-     margin-top: 130rem;
 
- }
-}
+
   @media (min-width: 600px) {
     .page-content {
         grid-template-columns: repeat(2, 1fr);
@@ -182,12 +173,7 @@
 
    }
 }
-@media (max-width: 400px) {
-    #borough{
-        margin-top: 150rem;
 
-    }
- }
    @media (hover: hover) and (min-width: 600px) {
        .borough-card-holder:after {
            transform: translateY(0);

@@ -85,3 +85,20 @@
   }
 
 }
+@media screen and (max-width: 1000px) {
+  .teams-image{
+    width: 60%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .teams-image{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .teams-image{
+    width: 100%;
+  }
+
+}
